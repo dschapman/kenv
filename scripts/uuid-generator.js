@@ -2,4 +2,4 @@
 import "@johnlindquist/kit";
 import { v4 as uuidv4 } from "uuid";
 
-copy(uuidv4());
+copy("id: " + uuidv4().toString());
